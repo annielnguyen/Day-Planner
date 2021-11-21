@@ -7,11 +7,21 @@ $("#currentDay").text(now);
 }, 60000);
 
 // //Add Task When clicking on button
-function addTask(){
 
+function addTask(e){
+   var row_id= e.target.getAttribute("row")
+    console.log(row_id);
 }
 
-$(".col-1 addButton").on("click", addTask);
+
+function getValue() {
+    return localStorage.getItem("schedule");
+}
+console.log(getValue());
+
+$(".saveBtn").on("click", addTask);
+
+
 
 //clear calendar button
 function ResetCal(){
