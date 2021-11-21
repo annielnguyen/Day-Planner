@@ -6,3 +6,4 @@ Here is the appearance of this application:
 
 ## Links
 https://github.com/annielnguyen/Day-Planner
+https://annielnguyen.github.io/Day-Planner/
